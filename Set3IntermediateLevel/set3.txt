@@ -3,6 +3,7 @@ show dbs
 // create and use database 
 use mydb
 
+
 // Create a Rides collection with the fields defined above.
 db.rides.insertOne({
   driver_id: ObjectId(),

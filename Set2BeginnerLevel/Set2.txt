@@ -96,6 +96,7 @@ db.Restaurants.find({
   ]
 })
 
+
 // fetch all restaurants where the cuisine_type field is not set or is null.
 db.restaurants.find({
   $or: [

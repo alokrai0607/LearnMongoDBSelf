@@ -150,6 +150,8 @@ db.rides.aggregate([
   }
 ])
 
+
+
 // Assuming there's another collection/table Passengers with passenger_id and name fields, write a query to return a list of all rides including the driver's name and passenger's name.
 
 db.rides.aggregate([

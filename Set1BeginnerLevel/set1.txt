@@ -4,7 +4,6 @@ use Mydb
 // Create the customer collection
  db.createCollection("Customers")
  
- 
  //Create the Customers Collection with Specified Fields
   db.createCollection("Customers", {
   validator: {
